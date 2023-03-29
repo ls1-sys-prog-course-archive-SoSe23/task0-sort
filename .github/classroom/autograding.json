@@ -18,7 +18,7 @@
       "output": "",
       "comparison": "included",
       "timeout": 1,
-      "points": 10
+      "points": null
     },
     {
       "name": "Reverse sort",
@@ -28,7 +28,7 @@
       "output": "",
       "comparison": "included",
       "timeout": 1,
-      "points": 10
+      "points": null
     },
     {
       "name": "Run sort with limited memory",
@@ -38,7 +38,7 @@
       "output": "",
       "comparison": "included",
       "timeout": 2,
-      "points": 10
+      "points": null
     }
   ]
 }
