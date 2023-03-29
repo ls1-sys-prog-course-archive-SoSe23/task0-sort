@@ -17,7 +17,7 @@ All assignments will try to build the `all` target within the Makefile like this
 $ make all
 ```
 
-So make sure your that the `all` target will produce all executables required for the
+So make sure that the `all` target will produce all executables required for the
 tests. 
 
 The github build environment comes with all tools for building C, C++ and Rust pre-installed.
