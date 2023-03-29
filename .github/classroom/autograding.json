@@ -13,7 +13,7 @@
     {
       "name": "Test sort",
       "setup": "",
-      "run": "timeout 1m python tests/test_sort.py",
+      "run": "timeout 1m python3 tests/test_sort.py",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -23,7 +23,7 @@
     {
       "name": "Reverse sort",
       "setup": "",
-      "run": "timeout 1m python tests/test_sort_reverse.py",
+      "run": "timeout 1m python3 tests/test_sort_reverse.py",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -33,7 +33,7 @@
     {
       "name": "Run sort with limited memory",
       "setup": "",
-      "run": "timeout 2m python tests/test_sort_limited_memory.py",
+      "run": "timeout 2m python3 tests/test_sort_limited_memory.py",
       "input": "",
       "output": "",
       "comparison": "included",
