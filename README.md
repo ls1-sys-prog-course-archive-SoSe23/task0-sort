@@ -27,6 +27,19 @@ At the time of writing the following set up is installed:
 - C/C++ build systems: cmake 3.22.1, autoconf 2.71, automake 1.16.5
 - Rust compiler/build system: rustc / cargo: 1.68.1
 
+## Allowed Libraries
+
+Apart from the standard library provided by the language of your choice, there're some additional libraries allowed to be used by default:
+
+- Rust: [libc](https://crates.io/crates/libc), [nix](https://crates.io/crates/nix)
+- C++: [{fmt}](https://fmt.dev/latest/index.html), [range-v3](https://github.com/ericniebler/range-v3)
+- And generally argument parsing libraries, such as [clap](https://crates.io/crates/clap).
+
+For a reference of the standard library, checkout:
+* [cppreference](https://en.cppreference.com/w/) for C/C++
+* [std](https://doc.rust-lang.org/std/) for rust
+
+
 ## Tests
 
 Our tests will lookup exectuables in one of the following directories (assuming `./` is the project root):
