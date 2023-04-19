@@ -9,6 +9,8 @@ RUSTFLAGS ?= -g
 
 # this target should build all executables for all tests
 all:
+#更改
+$(CC) $(CFLAGS) -o sort sort.c
 	@echo "Please set a concrete build command here"
 	false
 
