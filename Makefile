@@ -9,7 +9,7 @@ RUSTFLAGS ?= -g
 
 # this target should build all executables for all tests
 all:
-	@echo "Please set a concrete build command here"
+	@echo "对结果有影响吗Please set a concrete build command here"
 	false
 
 # C example:
